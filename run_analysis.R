@@ -9,7 +9,7 @@
 library(reshape2)
 
 ## set working directory
-setwd("C:/BT/MOOC/3. Getting and Cleaning Data/Project")
+setwd("C:/MOOC/3. Getting and Cleaning Data/Project")
 
 ## Read outcome data
 activitylabels <- read.table("./UCI HAR Dataset/activity_labels.txt")[,2]
